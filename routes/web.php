@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/report', 'ItemController@reportFoundItem');
+Route::get('/reports', 'ItemController@showAllReports');
+Route::get('/report/{id}', 'ItemController@showReport');

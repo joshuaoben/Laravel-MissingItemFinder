@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class FoundItemsTable extends Migration
+class Items extends Migration
 {
     /**
      * Run the migrations.
@@ -15,22 +15,15 @@ class FoundItemsTable extends Migration
     {
         Schema::create('items', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('user_email');
+            $table->string('status');
+            $table->string('mode');
             $table->string('name');
             $table->string('type');
-            $table->timestamps();
-        });
-
-        Schema::create('lost_items', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name');
-            $table->string('type');
-            $table->timestamps();
-        });
-
-        Schema::create('found_items', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name');
-            $table->string('type');
+            $table->text('description');
+            $table->date('last_seen');
+            $table->date('date_found');
+            $table->string('location');
             $table->timestamps();
         });
     }
@@ -42,6 +35,6 @@ class FoundItemsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('item');
+        Schema::dropIfExists('items');
     }
 }
