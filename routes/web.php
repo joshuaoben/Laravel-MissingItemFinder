@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/report', 'ItemController@reportFoundItem');
 Route::get('/reports', 'ItemController@showAllReports');
 Route::get('/report/{id}', 'ItemController@showReport');
+
+Route::get('/admin/register', 'AdminController@showRegister');
+Route::post('/admin/register', 'AdminController@register');
+Route::get('/admin', 'AdminController@showLogin');
