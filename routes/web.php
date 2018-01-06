@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+	$title ="Link Finder";
+    return view('front.index', compact('title'));
 });
 
 Route::get('/report', 'ItemController@reportFoundItem');
