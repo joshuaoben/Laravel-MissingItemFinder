@@ -39,16 +39,6 @@
           <li><a href="#">Login</a></li>
           <li><a href="#">Register</a></li>
         </ul>
-
-        <div class="language"> 
-          <a href="#" class="toggle"><img src="img/flags/32/NL.png" alt=""> NDL</a>
-
-          <ul>
-            <li><a href="#"><img src="img/flags/32/PT.png" alt=""> PT</a></li>
-            <li><a href="#"><img src="img/flags/32/FR.png" alt=""> FR</a></li>
-            <li><a href="#"><img src="img/flags/32/ES.png" alt=""> ES</a></li>
-          </ul>
-        </div>
       </div>
     </div> <!-- end .uou-block-1a -->
   </div> <!-- end toolbar -->
