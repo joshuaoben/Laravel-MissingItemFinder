@@ -23,3 +23,9 @@ Route::get('/report/{id}', 'ItemController@showReport');
 Route::get('/admin/register', 'AdminController@showRegister');
 Route::post('/admin/register', 'AdminController@register');
 Route::get('/admin', 'AdminController@showLogin');
+
+Route::get('/login', 'UserContoller@showLogin');
+Route::post('/login', 'UserContoller@login');
+Route::get('/register', 'UserContoller@register');
+Route::post('/register', 'UserContoller@register');
+Routr::get('/', 'IndexController@showIndex')
