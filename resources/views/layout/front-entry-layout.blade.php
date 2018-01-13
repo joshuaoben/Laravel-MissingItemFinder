@@ -59,25 +59,7 @@
                     <li><a href="index2.html">Home 2</a></li>
                   </ul>
                 </li>
-                <li>
-                  <a href="index_jobs.html"><i class="fa fa-search-plus"></i> Jobs</a>
-                  <ul class="demo-menu">
-                    <li><a href="index_jobs.html">Jobs Index(Default)</a></li>
-                    <li><a href="single_job.html">Job Single</a></li>
-                    <li><a href="profile_company.html">Company Profile</a></li>
-                    <li><a href="profile_company2.html">Company Profile (2)</a></li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="index_business1.html"><i class="fa fa-suitcase"></i> Businesses</a>
-                  <ul class="demo-menu">
-                    <li><a href="index_business1.html">Business Index(Default)</a></li>
-                    <li><a href="index_business2.html">Business Index(2)</a></li>
-                    <li><a href="index_business3.html">Business Index(3)</a></li>
-                    <li><a href="index_business4.html">Business Index(4)</a></li>
-                    <li><a href="index_business5.html">Business Index(5)</a></li>
-                    <li><a href="single_business.html">Business Single</a></li>
-                  </ul>
+                
                 <li>
                   <a href="index_restaurant.html"><i class="fa fa-cutlery"></i>  Restaurants</a>
                   <ul class="demo-menu">

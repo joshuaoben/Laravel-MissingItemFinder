@@ -24,8 +24,7 @@ Route::get('/admin/register', 'AdminController@showRegister');
 Route::post('/admin/register', 'AdminController@register');
 Route::get('/admin', 'AdminController@showLogin');
 
-Route::get('/login', 'UserContoller@showLogin');
-Route::post('/login', 'UserContoller@login');
-Route::get('/register', 'UserContoller@register');
-Route::post('/register', 'UserContoller@register');
-Routr::get('/', 'IndexController@showIndex')
+Route::get('/login', 'UserController@showLogin');
+Route::post('/login', 'UserController@login');
+Route::get('/register', 'UserController@showRegister');
+Route::post('/register', 'UserController@register');
