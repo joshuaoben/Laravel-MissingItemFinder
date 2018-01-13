@@ -19,29 +19,7 @@
 
 <body>
 <div id="main-wrapper" class="homepage">
-  <div class="toolbar">
-    <div class="uou-block-1a blog">
-      <div class="container">
-        <ul class="quick-nav">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-        </ul>
-
-        <ul class="social">
-          <li><a href="#" class="fa fa-facebook"></a></li>
-          <li><a href="#" class="fa fa-twitter"></a></li>
-          <li><a href="#" class="fa fa-google-plus"></a></li>
-        </ul>
-
-        <ul class="authentication">
-          <li><a href="#">Login</a></li>
-          <li><a href="#">Register</a></li>
-        </ul>
-      </div>
-    </div> <!-- end .uou-block-1a -->
-  </div> <!-- end toolbar -->
+  
 
   <div class="header-nav">
       <div class="box-shadow-for-ui">
@@ -61,11 +39,7 @@
                 </li>
                 
                 <li>
-                  <a href="index_restaurant.html"><i class="fa fa-cutlery"></i>  Restaurants</a>
-                  <ul class="demo-menu">
-                    <li><a href="index_restaurant.html">Restaurant Index</a></li>
-                    <li><a href="single_restaurant.html">Restaurant Single</a></li>
-                  </ul>
+                  <a href="index_restaurant.html"><i class="fa fa-cog"></i>  Report Item</a>
                 </li>
                 <li>
                   <a href="#"><i class="fa fa-cogs"></i> Features</a>
